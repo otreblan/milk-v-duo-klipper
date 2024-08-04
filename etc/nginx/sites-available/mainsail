@@ -17,14 +17,14 @@ server {
     error_log /var/log/nginx/mainsail-error.log;
 
     #disable this section on smaller hardware like a pi zero
-    gzip on;
-    gzip_vary on;
-    gzip_proxied any;
-    gzip_proxied expired no-cache no-store private auth;
-    gzip_comp_level 4;
-    gzip_buffers 16 8k;
-    gzip_http_version 1.1;
-    gzip_types text/plain text/css text/xml text/javascript application/x-javascript application/json application/xml;
+    #gzip on;
+    #gzip_vary on;
+    #gzip_proxied any;
+    #gzip_proxied expired no-cache no-store private auth;
+    #gzip_comp_level 4;
+    #gzip_buffers 16 8k;
+    #gzip_http_version 1.1;
+    #gzip_types text/plain text/css text/xml text/javascript application/x-javascript application/json application/xml;
 
     #web_path from mainsail static files
     root /usr/share/webapps/mainsail;
