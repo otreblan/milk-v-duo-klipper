@@ -4,4 +4,5 @@
 ```bash
 alias sysyadm="sudo yadm --yadm-dir /etc/yadm --yadm-data /etc/yadm/data"
 sysyadm clone -w / https://github.com/otreblan/milk-v-duo-klipper
+sysyadm reset --hard
 ```
